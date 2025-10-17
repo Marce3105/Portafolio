@@ -9,7 +9,7 @@ export default function Footer() {
 
         {/* Iconos sociales */}
         <div className="flex space-x-8 text-2xl">
-          <a href="www.linkedin.com/in/marcela-hidalgo-ospina-604795337" target="_blank"
+          <a href="https://www.linkedin.com/in/marcela-hidalgo-ospina-604795337" target="_blank"
             className="hover:text-sky-400 hover:scale-125 transition transform">
             <FaLinkedin />
           </a>

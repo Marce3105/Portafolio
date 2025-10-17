@@ -49,44 +49,33 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Fondo oscuro al abrir el menú */}
+      {/* Fondo transparente y difuminado al abrir el menú */}
       {menuOpen && (
         <div
           onClick={() => setMenuOpen(false)}
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40"
-        ></div>
-      )}
-
-      {/* Barra lateral (sidebar) */}
-      <div
-        className={`fixed top-0 right-0 h-full w-64 bg-[#141427] shadow-xl border-l border-sky-500/10 transform ${
-          menuOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out z-50 flex flex-col`}
-      >
-        <div className="flex justify-between items-center p-4 border-b border-sky-500/10">
-          <span className="text-xl font-bold text-sky-300">Menú</span>
+          className="fixed inset-0 bg-[#0f0f1d]/70 backdrop-blur-md z-40 flex flex-col justify-center items-center space-y-8 transition-opacity duration-300"
+        >
+          {/* Botón cerrar */}
           <button
             onClick={() => setMenuOpen(false)}
-            className="text-gray-200 hover:text-sky-400"
+            className="absolute top-6 right-6 text-gray-200 hover:text-sky-400"
           >
-            <X size={28} />
+            <X size={32} />
           </button>
-        </div>
 
-        <nav className="flex flex-col mt-6 space-y-4 px-6">
+          {/* Enlaces del menú */}
           {menuItems.map((item) => (
             <a
               key={item.name}
               href={item.href}
               onClick={() => setMenuOpen(false)}
-              className="text-gray-200 text-lg font-medium hover:text-sky-400 transition"
+              className="text-3xl font-bold text-gray-100 hover:text-sky-400 transition-all"
             >
               {item.name}
             </a>
           ))}
-        </nav>
-      </div>
+        </div>
+      )}
     </header>
   );
 }
-
