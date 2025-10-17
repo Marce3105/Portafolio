@@ -166,8 +166,8 @@ export default function Hero() {
         {/* Botones */}
         <div className="flex flex-col md:flex-row gap-6 justify-center md:justify-start items-center mt-6">
           <a
-            href="/CV_Marcela.pdf"
-            download
+            href="/CV_Marcela_Hidalgo.pdf"
+            download="CV_Marcela_Hidalgo.pdf"
             className="px-6 py-3 rounded-lg bg-sky-600 hover:bg-sky-500 transition shadow-md text-white font-medium"
           >
             Descargar CV
