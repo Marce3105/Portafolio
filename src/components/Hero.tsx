@@ -174,7 +174,7 @@ export default function Hero() {
           </a>
           <div className="flex items-center gap-4 text-xl">
             <a
-              href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BCnrpJmlSTCGH1fo0fiPVhA%3D%3D"
+              href="www.linkedin.com/in/marcela-hidalgo-ospina-604795337"
               target="_blank"
               className="p-3 border border-gray-500 rounded-full hover:border-sky-400 hover:text-sky-400 transition"
             >

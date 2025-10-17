@@ -9,7 +9,7 @@ export default function Footer() {
 
         {/* Iconos sociales */}
         <div className="flex space-x-8 text-2xl">
-          <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BCnrpJmlSTCGH1fo0fiPVhA%3D%3D" target="_blank"
+          <a href="www.linkedin.com/in/marcela-hidalgo-ospina-604795337" target="_blank"
             className="hover:text-sky-400 hover:scale-125 transition transform">
             <FaLinkedin />
           </a>
@@ -25,7 +25,7 @@ export default function Footer() {
 
         {/* Texto */}
         <p className="text-sm text-gray-400">
-          © {new Date().getFullYear()} <span className="text-sky-300 font-semibold">Marcela Hidalgo</span> · Todos los derechos reservados
+          © {new Date().getFullYear()} <span className="text-sky-300 font-semibold">Marcela Hidalgo</span> 
         </p>
       </div>
     </footer>

@@ -9,7 +9,7 @@ export default function Navbar() {
       </div>
 
       {/* Menú */}
-      <nav className="hidden md:flex space-x-10 text-lg font-bold tracking-wide">
+      <nav className="flex flex-wrap space-x-5 text-base font-bold tracking-wide">
         {["Inicio", "Habilidades", "Proyectos", "Contacto"].map((item) => (
           <a
             key={item}
