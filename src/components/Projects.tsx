@@ -48,8 +48,8 @@ export default function Projects() {
           Mis Proyectos
         </h2>
         <p className="text-gray-100 text-lg md:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
-          Algunos proyectos que reflejan mi experiencia en el desarrollo de
-          interfaces modernas, optimizadas y centradas en la experiencia del usuario.
+          Algunos proyectos que demuestran mi capacidad para desarrollar aplicaciones web 
+          completas, combinando diseño moderno, funcionalidad robusta y código de calidad.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">

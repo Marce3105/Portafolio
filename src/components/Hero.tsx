@@ -38,7 +38,7 @@ export default function Hero() {
         }
       }
 
-      for (let node of nodes) {
+      for (const node of nodes) {
         ctx.beginPath();
         ctx.arc(node.x, node.y, 2, 0, Math.PI * 2);
         ctx.fillStyle = "rgba(100, 200, 255, 0.7)";
@@ -141,9 +141,8 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Desarrolladora frontend enfocada en construir interfaces modernas,
-          optimizadas y responsivas, utilizando tecnologías como React, TypeScript y
-          TailwindCSS.
+          Desarrolladora Full Stack enfocada en construir aplicaciones web completas y funcionales, desde interfaces 
+          modernas y responsivas hasta APIs REST y bases de datos eficientes. 
         </motion.p>
 
         <motion.p
@@ -156,11 +155,22 @@ export default function Hero() {
         </motion.p>
 
         {/* Tecnologías */}
-        <div className="flex gap-3 mt-4 flex-wrap justify-center md:justify-start">
-          <span className="px-4 py-1 bg-sky-700/30 text-sky-200 rounded-full text-base font-medium">React</span>
-          <span className="px-4 py-1 bg-blue-700/30 text-blue-200 rounded-full text-base font-medium">TypeScript</span>
-          <span className="px-4 py-1 bg-yellow-300/20 text-yellow-200 rounded-full text-base font-medium">JavaScript</span>
-          <span className="px-4 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-base font-medium">TailwindCSS</span>
+        <div className="flex gap-3 mt-4 flex-wrap justify-center md:justify-start max-w-xl">
+          <span className="px-4 py-1 bg-sky-700/30 text-sky-200 rounded-full text-base font-medium">
+            React
+          </span>
+          <span className="px-4 py-1 bg-blue-700/30 text-blue-200 rounded-full text-base font-medium">
+            TypeScript
+          </span>
+          <span className="px-4 py-1 bg-green-700/30 text-green-200 rounded-full text-base font-medium">
+            Django
+          </span>
+          <span className="px-4 py-1 bg-orange-700/30 text-orange-200 rounded-full text-base font-medium">
+            MySQL
+          </span>
+          <span className="px-4 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-base font-medium">
+            TailwindCSS
+          </span>
         </div>
 
         {/* Botones */}
