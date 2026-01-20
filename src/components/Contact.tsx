@@ -114,7 +114,7 @@ export default function Contact() {
             <div>
               <p className="text-gray-400">Dirección</p>
               <p className="text-lg font-semibold text-white">
-                Colombia, Bogotá D.C
+                Colombia, Tuluá Valle
               </p>
             </div>
           </div>
